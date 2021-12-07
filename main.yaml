@@ -38,4 +38,4 @@ jobs:
   - task: octane-end-task@1
     inputs:
       OctaneServiceConnection: 'OctaneCon'
-      WorkspaceList: 'YOUR_COMMA_SEPARATED_WORKSPACE_IDS'
+      WorkspaceList: '4001'
