@@ -33,7 +33,7 @@ jobs:
   dependsOn:
   - AlmOctanePipelineStart
   - A
-  - B
+  #- B
   steps:
   - task: octane-end-task@1
     inputs:
