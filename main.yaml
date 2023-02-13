@@ -37,5 +37,5 @@ jobs:
   steps:
   - task: octane-end-task@1
     inputs:
-      OctaneServiceConnection: 'OctaneCon'
+      OctaneServiceConnection: 'azure-github-almOctane-Integration-1'
       WorkspaceList: '4001'
