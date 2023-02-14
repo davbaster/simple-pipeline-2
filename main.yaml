@@ -4,8 +4,8 @@ jobs:
   steps:
   - task: octane-start-task@1
     inputs:
-      OctaneServiceConnection: 'OctaneCon'
-      WorkspaceList: '4001'
+      OctaneServiceConnection: 'github-ado-alm'
+      WorkspaceList: '9001'
 
 - job: A
   dependsOn: AlmOctanePipelineStart
@@ -37,5 +37,5 @@ jobs:
   steps:
   - task: octane-end-task@1
     inputs:
-      OctaneServiceConnection: 'OctaneCon'
-      WorkspaceList: '4001'
+      OctaneServiceConnection: 'github-ado-alm'
+      WorkspaceList: '9001'
